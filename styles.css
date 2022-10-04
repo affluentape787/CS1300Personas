@@ -1,0 +1,48 @@
+#p-and-s {
+    background-color: rgb(250, 240, 230);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center
+}
+
+img {
+    width: 65%;
+    flex: 50%;
+    object-fit: cover;
+    padding: 1px;
+    align-content: center;
+}
+
+
+.caption {
+    width: 65%;
+}
+
+
+.I-container,
+.II-container,
+.III-container,
+.IV-container,
+.V-container {
+
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.VI-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.big-image {
+    width: 75%;
+    object-fit: fill;
+    padding: 1px;
+}
